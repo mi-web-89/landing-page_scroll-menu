@@ -22,8 +22,8 @@ import Footer from '@/components/global/Footer.vue'
 
 export default {
   components: {
-   appHeader : Header,
-   appFooter : Footer
+   'appHeader' : Header,
+   'appFooter' : Footer
   } 
 }
 </script>

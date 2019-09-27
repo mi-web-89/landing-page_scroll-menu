@@ -1,0 +1,675 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('assets/fonts/icomoon.eot?u7uum8');
+    src:  url('assets/fonts/icomoon.eot?u7uum8#iefix') format('embedded-opentype'),
+      url('assets/fonts/icomoon.ttf?u7uum8') format('truetype'),
+      url('assets/fonts/icomoon.woff?u7uum8') format('woff'),
+      url('assets/fonts/icomoon.svg?u7uum8#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="fa-"], [class*=" fa-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .fa-bars:before {
+    content: "\e900";
+  }
+  .fa-check-circle .path1:before {
+    content: "\e901";
+    color: rgb(92, 126, 251);
+  }
+  .fa-check-circle .path2:before {
+    content: "\e902";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-circle-link .path1:before {
+    content: "\e903";
+    color: rgb(230, 230, 230);
+  }
+  .fa-circle-link .path2:before {
+    content: "\e904";
+    margin-left: -1em;
+    color: rgb(179, 179, 179);
+  }
+  .fa-close-circle-pink .path1:before {
+    content: "\e905";
+    color: rgb(255, 74, 129);
+  }
+  .fa-close-circle-pink .path2:before {
+    content: "\e906";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-dialog:before {
+    content: "\e907";
+    color: #aeaeae;
+  }
+  .fa-dialog-full:before {
+    content: "\e908";
+  }
+  .fa-dialog-full-pink:before {
+    content: "\e909";
+    color: #ff4a81;
+  }
+  .fa-donation:before {
+    content: "\e90a";
+    color: #b3b3b3;
+  }
+  .fa-donation-full:before {
+    content: "\e90b";
+    color: #fc4e83;
+  }
+  .fa-ellipsis-v:before {
+    content: "\e90c";
+    color: #aeaeae;
+  }
+  .fa-exclamation-circle:before {
+    content: "\e90d";
+  }
+  .fa-exit:before {
+    content: "\e90e";
+  }
+  .fa-facebook:before {
+    content: "\e90f";
+    color: #999;
+  }
+  .fa-facebook-circle:before {
+    content: "\e910";
+  }
+  .fa-facebook-circle-blue .path1:before {
+    content: "\e911";
+    color: rgb(36, 90, 155);
+  }
+  .fa-facebook-circle-blue .path2:before {
+    content: "\e912";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-filter:before {
+    content: "\e913";
+  }
+  .fa-gear-circle .path1:before {
+    content: "\e914";
+    color: rgb(204, 204, 204);
+  }
+  .fa-gear-circle .path2:before {
+    content: "\e915";
+    margin-left: -1em;
+    color: rgb(153, 153, 153);
+  }
+  .fa-home-full:before {
+    content: "\e916";
+    color: #fc4e83;
+  }
+  .fa-Instagram:before {
+    content: "\e917";
+  }
+  .fa-instagram-cirlce:before {
+    content: "\e918";
+  }
+  .fa-linkedin-circle .path1:before {
+    content: "\e919";
+    color: rgb(0, 123, 188);
+  }
+  .fa-linkedin-circle .path2:before {
+    content: "\e91a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-linkedin-circle .path3:before {
+    content: "\e91b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-location:before {
+    content: "\e91c";
+    color: #aeaeae;
+  }
+  .fa-love:before {
+    content: "\e91d";
+    color: #aeaeae;
+  }
+  .fa-love-full:before {
+    content: "\e91e";
+  }
+  .fa-love-full-pink:before {
+    content: "\e91f";
+    color: #ff4a81;
+  }
+  .fa-mashara-notification .path1:before {
+    content: "\e920";
+    color: rgb(255, 74, 129);
+  }
+  .fa-mashara-notification .path2:before {
+    content: "\e921";
+    margin-left: -1em;
+    color: rgb(255, 217, 228);
+  }
+  .fa-mashara-notification .path3:before {
+    content: "\e922";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-mashara-notification .path4:before {
+    content: "\e923";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-mashara-notification .path5:before {
+    content: "\e924";
+    margin-left: -1em;
+    color: rgb(247, 247, 247);
+  }
+  .fa-mashara-notification .path6:before {
+    content: "\e925";
+    margin-left: -1em;
+    color: rgb(255, 74, 129);
+  }
+  .fa-mashara-notification .path7:before {
+    content: "\e926";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-mashara-notification .path8:before {
+    content: "\e927";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-mashara-notification .path9:before {
+    content: "\e928";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-mashara-notification .path10:before {
+    content: "\e929";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-mashara-notification .path11:before {
+    content: "\e92a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-mashara-notification .path12:before {
+    content: "\e92b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-masjid-pink:before {
+    content: "\e92c";
+    color: #ff4a81;
+  }
+  .fa-notification .path1:before {
+    content: "\e92d";
+    color: rgb(255, 230, 237);
+  }
+  .fa-notification .path2:before {
+    content: "\e92e";
+    margin-left: -1em;
+    color: rgb(255, 74, 129);
+  }
+  .fa-notification .path3:before {
+    content: "\e92f";
+    margin-left: -1em;
+    color: rgb(255, 217, 228);
+  }
+  .fa-notification .path4:before {
+    content: "\e930";
+    margin-left: -1em;
+    color: rgb(255, 217, 228);
+  }
+  .fa-notification .path5:before {
+    content: "\e931";
+    margin-left: -1em;
+    color: rgb(255, 74, 129);
+  }
+  .fa-notification .path6:before {
+    content: "\e932";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .fa-notification .path7:before {
+    content: "\e933";
+    margin-left: -1em;
+    color: rgb(255, 217, 228);
+  }
+  .fa-notification .path8:before {
+    content: "\e934";
+    margin-left: -1em;
+    color: rgb(255, 74, 129);
+  }
+  .fa-notification-circle .path1:before {
+    content: "\e935";
+    color: rgb(230, 230, 230);
+  }
+  .fa-notification-circle .path2:before {
+    content: "\e936";
+    margin-left: -1em;
+    color: rgb(153, 153, 153);
+  }
+  .fa-notification-circle .path3:before {
+    content: "\e937";
+    margin-left: -1em;
+    color: rgb(153, 153, 153);
+  }
+  .fa-notification-full:before {
+    content: "\e938";
+  }
+  .fa-question-full:before {
+    content: "\e939";
+    color: #fc4e83;
+  }
+  .fa-question-mark-histogram .path1:before {
+    content: "\e93a";
+    color: rgb(38, 51, 59);
+  }
+  .fa-question-mark-histogram .path2:before {
+    content: "\e93b";
+    margin-left: -1em;
+    color: rgb(242, 242, 242);
+  }
+  .fa-question-mark-histogram .path3:before {
+    content: "\e93c";
+    margin-left: -1em;
+    color: rgb(242, 242, 242);
+  }
+  .fa-search:before {
+    content: "\e93d";
+    color: #ccc;
+  }
+  .fa-send:before {
+    content: "\e93e";
+    color: #aeaeae;
+  }
+  .fa-send-up:before {
+    content: "\e93f";
+    color: #aeaeae;
+  }
+  .fa-share:before {
+    content: "\e940";
+    color: #aeaeae;
+  }
+  .fa-share-full:before {
+    content: "\e941";
+    color: #ff4a81;
+  }
+  .fa-side-menu-jadwal-ashar:before {
+    content: "\e942";
+  }
+  .fa-side-menu-jadwal-dhuha:before {
+    content: "\e943";
+  }
+  .fa-side-menu-jadwal-isya:before {
+    content: "\e944";
+  }
+  .fa-side-menu-jadwal-magrib:before {
+    content: "\e945";
+  }
+  .fa-side-menu-jadwal-subuh:before {
+    content: "\e946";
+  }
+  .fa-side-menu-jadwal-zuhur:before {
+    content: "\e947";
+  }
+  .fa-star-star:before {
+    content: "\e948";
+  }
+  .fa-suitcase:before {
+    content: "\e949";
+  }
+  .fa-think:before {
+    content: "\e94a";
+  }
+  .fa-topics:before {
+    content: "\e94b";
+  }
+  .fa-tumblr-circle .path1:before {
+    content: "\e94c";
+    color: rgb(20, 67, 93);
+  }
+  .fa-tumblr-circle .path2:before {
+    content: "\e94d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-twitter-circle:before {
+    content: "\e94e";
+  }
+  .fa-twitter-circle-color .path1:before {
+    content: "\e94f";
+    color: rgb(0, 204, 255);
+  }
+  .fa-twitter-circle-color .path2:before {
+    content: "\e950";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-twitter-circle-color .path3:before {
+    content: "\e951";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-twitter-circle-color .path4:before {
+    content: "\e952";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-twitter-circle-color .path5:before {
+    content: "\e953";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-user-plus:before {
+    content: "\e954";
+    color: #ff4a81;
+  }
+  .fa-welcome .path1:before {
+    content: "\e955";
+    color: rgb(0, 0, 0);
+  }
+  .fa-welcome .path2:before {
+    content: "\e956";
+    margin-left: -1em;
+    color: rgb(230, 230, 230);
+  }
+  .fa-welcome .path3:before {
+    content: "\e957";
+    margin-left: -1em;
+    color: rgb(179, 179, 179);
+  }
+  .fa-welcome .path4:before {
+    content: "\e958";
+    margin-left: -1em;
+    color: rgb(179, 179, 179);
+  }
+  .fa-welcome .path5:before {
+    content: "\e959";
+    margin-left: -1em;
+    color: rgb(179, 179, 179);
+  }
+  .fa-welcome .path6:before {
+    content: "\e95a";
+    margin-left: -1em;
+    color: rgb(255, 74, 129);
+  }
+  .fa-welcome .path7:before {
+    content: "\e95b";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .fa-welcome .path8:before {
+    content: "\e95c";
+    margin-left: -1em;
+    color: rgb(239, 53, 115);
+  }
+  .fa-welcome .path9:before {
+    content: "\e95d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-welcome .path10:before {
+    content: "\e95e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-welcome .path11:before {
+    content: "\e95f";
+    margin-left: -1em;
+    color: rgb(170, 24, 73);
+  }
+  .fa-welcome .path12:before {
+    content: "\e960";
+    margin-left: -1em;
+    color: rgb(255, 128, 177);
+  }
+  .fa-welcome .path13:before {
+    content: "\e961";
+    margin-left: -1em;
+    color: rgb(170, 24, 73);
+  }
+  .fa-welcome .path14:before {
+    content: "\e962";
+    margin-left: -1em;
+    color: rgb(170, 24, 73);
+  }
+  .fa-welcome .path15:before {
+    content: "\e963";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-welcome .path16:before {
+    content: "\e964";
+    margin-left: -1em;
+    color: rgb(255, 74, 129);
+  }
+  .fa-welcome .path17:before {
+    content: "\e965";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-welcome .path18:before {
+    content: "\e966";
+    margin-left: -1em;
+    color: rgb(255, 74, 129);
+  }
+  .fa-welcome .path19:before {
+    content: "\e967";
+    margin-left: -1em;
+    color: rgb(255, 74, 129);
+  }
+  .fa-welcome .path20:before {
+    content: "\e968";
+    margin-left: -1em;
+    color: rgb(255, 74, 129);
+  }
+  .fa-welcome .path21:before {
+    content: "\e969";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-welcome .path22:before {
+    content: "\e96a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-welcome .path23:before {
+    content: "\e96b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-welcome .path24:before {
+    content: "\e96c";
+    margin-left: -1em;
+    color: rgb(255, 74, 129);
+  }
+  .fa-whatsapp-circle .path1:before {
+    content: "\e96d";
+    color: rgb(0, 251, 115);
+  }
+  .fa-whatsapp-circle .path2:before {
+    content: "\e96e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-whatsapp-circle .path3:before {
+    content: "\e96f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .fa-plus:before {
+    content: "\f067";
+  }
+  .fa-glass:before {
+    content: "\f000";
+  }
+  .fa-search-fa:before {
+    content: "\f002";
+  }
+  .fa-envelope-o:before {
+    content: "\f003";
+  }
+  .fa-user:before {
+    content: "\f007";
+  }
+  .fa-check:before {
+    content: "\f00c";
+  }
+  .fa-close:before {
+    content: "\f00d";
+  }
+  .fa-remove:before {
+    content: "\f00d";
+  }
+  .fa-times:before {
+    content: "\f00d";
+  }
+  .fa-bookmark:before {
+    content: "\f02e";
+  }
+  .fa-image:before {
+    content: "\f03e";
+  }
+  .fa-photo:before {
+    content: "\f03e";
+  }
+  .fa-picture-o:before {
+    content: "\f03e";
+  }
+  .fa-chevron-left:before {
+    content: "\f053";
+  }
+  .fa-chevron-right:before {
+    content: "\f054";
+  }
+  .fa-times-circle:before {
+    content: "\f057";
+  }
+  .fa-check-circle-fa:before {
+    content: "\f058";
+  }
+  .fa-question-circle:before {
+    content: "\f059";
+  }
+  .fa-times-circle-o:before {
+    content: "\f05c";
+  }
+  .fa-check-circle-o:before {
+    content: "\f05d";
+  }
+  .fa-arrow-left:before {
+    content: "\f060";
+  }
+  .fa-arrow-right:before {
+    content: "\f061";
+  }
+  .fa-arrow-up:before {
+    content: "\f062";
+  }
+  .fa-arrow-down:before {
+    content: "\f063";
+  }
+  .fa-chevron-up:before {
+    content: "\f077";
+  }
+  .fa-chevron-down:before {
+    content: "\f078";
+  }
+  .fa-heart-o:before {
+    content: "\f08a";
+  }
+  .fa-bookmark-o:before {
+    content: "\f097";
+  }
+  .fa-facebook-fa:before {
+    content: "\f09a";
+  }
+  .fa-facebook-f-fa:before {
+    content: "\f09a";
+  }
+  .fa-arrow-circle-left:before {
+    content: "\f0a8";
+  }
+  .fa-arrow-circle-right:before {
+    content: "\f0a9";
+  }
+  .fa-arrow-circle-up:before {
+    content: "\f0aa";
+  }
+  .fa-arrow-circle-down:before {
+    content: "\f0ab";
+  }
+  .fa-filter-fa:before {
+    content: "\f0b0";
+  }
+  .fa-chain:before {
+    content: "\f0c1";
+  }
+  .fa-link:before {
+    content: "\f0c1";
+  }
+  .fa-google-plus:before {
+    content: "\f0d5";
+  }
+  .fa-envelope:before {
+    content: "\f0e0";
+  }
+  .fa-linkedin:before {
+    content: "\f0e1";
+  }
+  .fa-angle-left:before {
+    content: "\f104";
+  }
+  .fa-angle-right:before {
+    content: "\f105";
+  }
+  .fa-angle-up:before {
+    content: "\f106";
+  }
+  .fa-angle-down:before {
+    content: "\f107";
+  }
+  .fa-spinner:before {
+    content: "\f110";
+  }
+  .fa-chevron-circle-left:before {
+    content: "\f137";
+  }
+  .fa-chevron-circle-right:before {
+    content: "\f138";
+  }
+  .fa-chevron-circle-up:before {
+    content: "\f139";
+  }
+  .fa-chevron-circle-down:before {
+    content: "\f13a";
+  }
+  .fa-instagram:before {
+    content: "\f16d";
+  }
+  .fa-tumblr:before {
+    content: "\f173";
+  }
+  .fa-map-o:before {
+    content: "\f278";
+  }
+  .fa-map:before {
+    content: "\f279";
+  }
+  .fa-user-o:before {
+    content: "\f2c0";
+  }
+  

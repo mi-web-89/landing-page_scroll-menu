@@ -4,7 +4,9 @@
     @click="scrollToTop()"
     id="btn-to-top"
     :class="{show: lastPosition > 200}"
-  >Top</button>
+  >
+   <i class="fas fa-angle-up"></i>
+  </button>
 </template>
 <script>
 export default {
